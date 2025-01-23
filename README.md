@@ -3,8 +3,8 @@
 > Status: concluído
 
 > ## Descrição funcionalidade:
-      Basicamente, o projeto consiste em coletar notas de determinados atletas, e calcular a média das mesmas,
-      excluindo a maior e a menor nota. Após o cálculo da média, é retornado, ao console, dados referentes ao nome
+      Basicamente, o projeto consiste em coletar notas de determinados atletas, e calcular a média das mesmas, 
+      excluindo a maior e a menor nota. Após o cálculo da média, é retornado, ao console, dados referentes ao nome 
       dos atletas, suas notas obtidas e suas respectivas médias, obedecendo o critério citado anteriormente.
 
 >   ## Tecnologias utilizadas:
