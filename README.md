@@ -14,13 +14,13 @@
 > ## Descrição códigos:
 
 + Foi atribuído o array atletas, onde contém o nome e notas de determinados atletas
-+ Foi criada a função com o parâmetro dados. Tal função foi chamada com a atribuição do array atletas.
++ Foi criada a função mostraDadosEObtemMedia() com o parâmetro dados. Tal função foi chamada com a atribuição do array atletas.
 + Atribui-se for(){} para caminhar sobre o array atletas.
-+ Após isso, ordena-se os valores com slice() e sort(). slice antecede sort para que aquele tipo de ordenação seja efetuado
-  Apenas quando a variável ordena for chamada, Mantendo assim a posição original das notas. sort() basicamente é o método utilizado para ordenar elementos.
-+ Após a ordenação, é criada uma variável chamada notasDoMeio, onde são excluidos o maior e menor número da sequência de notas ordenadas, utilizando .silce().
++ Após isso, ordena-se os valores com slice() e sort(). slice() antecede sort para que aquele tipo de ordenação seja efetuado
+  apenas quando a variável ordena for chamada, Mantendo assim a posição original das notas. sort() basicamente é o método utilizado para ordenar elementos.
++ Após a ordenação, é criada uma variável chamada notasDoMeio, onde são excluidos o maior e menor número da sequência de notas ordenadas, utilizando slice().
 + Depois, define-se a variável quantidade, contendo notasDoMeio.length
-+ É criada a variável soma, por meio do reduce, onde a mesma será usada para obtenção das médias.
++ É criada a variável soma, por meio do reduce(), onde a mesma será usada para obtenção das médias.
 + Cria-se a variável media, onde a variável soma será dividida pela variável quantidade
 + Após obtenção das médias, usaremos console.log, para que os dados dos atletas sejam exibidos.
 
